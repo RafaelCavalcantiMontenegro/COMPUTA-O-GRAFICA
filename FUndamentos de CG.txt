@@ -1,0 +1,27 @@
+FUNDAMENTOS DE CG:
+    framework = tipo de memória especial que fica no COMPUTADOR que armazena a cor e intecidade de cada pixel
+    tecnologia raster:
+         vantagens:
+            preenchimento de áreas é natural.
+        desvantagens: 
+            apresenta aliasing.
+    
+    tecnologia vetorial:
+        vantagens:
+            escala sem perdas.
+        desvantagens:
+            dificulta a construção de fotografias.
+
+TRANSFORMAÇÕES BASICAS 2D:
+
+CORDENADAS HOMOGÊNEAS:
+    feito utilizando matrizes 
+        x' = x +Tx e y' = y + Ty
+    transfomação inversa
+    escoala:
+        se o valor de Sx e Sy for maior que 1 estamos empliando o objeto, se for menor que 1 estamos diminuindo o objeto
+        escala inversa é a divisão do Sx e Sy
+
+TRANSFORMAÇÕES COMPOSTAS:
+    ordem matricial é da direita para esquerda           
+SISTEMA DE COORDENADAS:

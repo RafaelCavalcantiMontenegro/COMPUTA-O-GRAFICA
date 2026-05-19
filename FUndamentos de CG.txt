@@ -25,3 +25,49 @@ CORDENADAS HOMOGÊNEAS:
 TRANSFORMAÇÕES COMPOSTAS:
     ordem matricial é da direita para esquerda           
 SISTEMA DE COORDENADAS:
+
+3D:
+
+    vetores ortogonais: formam um angulo de 90° entre si.
+    vetores normais: deixa-los os eixos = 1.
+VIEWING 3D:
+
+    introdução: 
+        processam a descriçãoi do objeto por meio de umj conjunto de procedimentos
+        a fim de projetar uma visão especifica dessa superficie do dispositivo saida.
+
+        o viewing ficam em  coordenadas do mundo, definida pelo parâmetro de visão (câmera)
+
+        projeção paralela: projeta os pontos dos objetos de longe  de linhas paralelas usado para desenhos arquitetonicos e de engenharia 
+    '   projeção perpendiculares: simula a projeção feita pelo olho humano.
+
+        poliigonos muito simples como sólidos geométricos, quando algumas arestas são removidas, 
+        dá a empressão que a angulação de visualização mudou.
+
+        CENAS REALISTAS: fontes de iluminação e sombra, e materiais.
+
+    viewing pepíline:
+        posiciona a câmera, (posicionar a câmera seria o local espacial dela.)
+        e a sua orientação(orientação seria defição de de altura e rotação)
+
+        o plano de recorte é a parte da tela que será visualizada pelo usuário, levando em conta agora as 3 dimensões
+
+
+    parâmetros de coordenadas de visão 3D:
+        orientação do sista P0: chamado PONTO DE VISÃO, posição da câmera.
+
+        vetor view-up: fornece a coordenada de elevação da câmera, eixo Y
+        uma segunda direção para um dos eixos coordenados restantes.
+
+
+
+        SISTEMA DE COORDENADAS:
+            
+            primeiro normalizar os vetores:
+            
+            calcular o view-up:
+
+            calcular o ponto de visão.
+
+
+    GERAÇÃO DE EFEITOS VISUAIS:
